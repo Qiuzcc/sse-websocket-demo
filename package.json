@@ -1,0 +1,14 @@
+{
+  "name": "protocol-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WebSocket / SSE / HTTP 协议学习实验室：同一个模拟 AI 流式对话场景，四种传输方式并列对比",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}

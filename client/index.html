@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>协议实验室 · WebSocket / SSE / HTTP</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <h1>协议实验室</h1>
+      <p class="subtitle">同一个模拟 AI 流式对话，四种传输方式 —— 观察协议工作的全部过程</p>
+    </div>
+    <div class="header-right">
+      <button id="btn-clear-all" class="btn btn-ghost" title="清空所有面板的事件时间线">清空所有时间线</button>
+    </div>
+  </header>
+
+  <nav id="tab-bar" class="tab-bar" aria-label="协议切换"></nav>
+
+  <main id="tab-panels" class="tab-panels"></main>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
