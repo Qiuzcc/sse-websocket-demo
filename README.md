@@ -2,6 +2,13 @@
 
 一个面向前端工程师的协议教学项目：**同一个"模拟 AI 逐 token 流式回答"场景，用四种传输方式各跑一遍**，每种方式都配一条实时的「协议事件时间线」，把连接生命周期、消息到达、心跳、断线重连这些看不见的机制全部摊开。
 
+## 配套文章
+
+- [**WebSocket**](https://www.yuque.com/yuqueyonghucia7xz/ewvtgw/xpfim60b1mupuf8b)
+- [**SSE 服务器发送事件技术**](https://www.yuque.com/yuqueyonghucia7xz/ewvtgw/chf42sayuficuwhp)
+
+
+
 ## 运行
 
 ```bash
